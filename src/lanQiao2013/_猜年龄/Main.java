@@ -19,9 +19,9 @@ import java.util.Set;
  *
  *
  *     知识点：
- *     1.int-->String   直接在int上加一个空串；
+ *     1.int-->String       直接在int上加一个空串(int中的加法是运算，String中的加法是拼接)
  *     2.String.charAt()    返回的是下标对应的字符（char类型的数据）
- *     3.HashSet    可以去重
+ *     3.HashSet            可以去除重复值
  */
 public class Main {
     public static void main(String[] args) {
