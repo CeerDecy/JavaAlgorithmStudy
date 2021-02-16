@@ -31,7 +31,7 @@ public class Main {
             String s = i + "";                                  //3.将年龄的立方转化为String类型
             String s2 = i2 + "";                                //4.将年龄的4次方转化为String类型
             if (s.length()==4 && s2.length()==6){               //5.判断年龄立方是否为4位数，年龄4次方是否为6位数
-                Set<Character> set = new HashSet<>();  //6.创建set集合对象，用作于去除重复值
+                Set<Character> set = new HashSet<Character>();  //6.创建set集合对象，用作于去除重复值
                 String s3 = s+s2;                               //7.合并年龄立方和年龄4次方
                 for (int j = 0; j < s3.length(); j++) {
                     set.add(s3.charAt(j));                      //8.遍历合并后的字符串，将每个字符串中的字符添加到set集合中
@@ -42,6 +42,7 @@ public class Main {
             }
         }
     }
+
     /**
      * 优化过后的代码
      *
